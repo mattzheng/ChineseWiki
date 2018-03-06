@@ -1,7 +1,4 @@
 # ChineseWiki
-维基百科中文语料整理
-
-
 ## 维基百科中文词条
 开源的中文词条内容，收集了99W+词条，当然比百度少了不少。
 主要有两个：1、Wikipedia Extractor；2、gensim的wikicorpus库。
