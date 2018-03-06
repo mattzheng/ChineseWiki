@@ -1,8 +1,8 @@
 # ChineseWiki
 ## 维基百科中文词条
-开源的中文词条内容，收集了99W+词条，当然比百度少了不少。
-主要有两个：1、Wikipedia Extractor；2、gensim的wikicorpus库。
-那么其中处理都比较粗糙，导致：
+维基百科开源的中文词条内容，收集了99W+词条，当然比百度少了不少。
+有效处理该原始语料的方法主要有两个：1、Wikipedia Extractor；2、gensim的wikicorpus库。
+两种处理都比较粗糙，导致：
 
  - Wikipedia Extractor提取出来的结果，会去掉很多空格与括号里面的内容；
  - gensim.corpora.wikicorpus.WikiCorpus处理，问题更严重，因为它连所有标点都去掉了。
@@ -14,6 +14,16 @@
 zhwiki-20180301-pages-articles-multistream.xml.bz2 是主文件；
 zhwiki-20180301-pages-articles-multistream-index.txt.bz2 是每个词条的编号信息。
 
+
+
+**本篇主要是写如何进行整理：**
+
+ - 1、繁简转化库——opencc的安装与使用
+ - 2、wiki中文词条整理
+ - 3、关键词检索模块
+
+
+----------
 
 
 ## 1、繁简转化库——opencc的安装与使用
