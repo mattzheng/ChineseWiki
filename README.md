@@ -23,6 +23,13 @@ zhwiki-20180301-pages-articles-multistream-index.txt.bz2 是每个词条的编�
  - 3、关键词检索模块
 
 
+**额外的还有一些其他辅助信息：**
+
+ - 1、重定向匹配表，[中文维基重定向的同义词表](https://spaces.ac.cn/usr/uploads/2017/01/4014947738.7z)
+ - 2、词条的编号信息，官方提供
+   [zhwiki-20180301-pages-articles-multistream-index.txt.bz2 23.6
+   MB](https://dumps.wikimedia.org/zhwiki/20180301/zhwiki-20180301-pages-articles-multistream-index.txt.bz2)
+
 ----------
 
 
